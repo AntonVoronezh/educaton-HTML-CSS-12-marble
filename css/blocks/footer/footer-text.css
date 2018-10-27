@@ -65,3 +65,49 @@
     background-position: center center;
     background-repeat: no-repeat;
 }
+
+.address__item--address,
+.address__item--phone,
+.address__item--mail {
+    position: relative;
+    padding-left: 30px;
+}
+
+.address__item--address::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 9px;
+    height: 13px;
+    display: inline-block;
+    background-image: url('../../../img/icons/footer/Fill.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.address__item--phone::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 9px;
+    height: 13px;
+    display: inline-block;
+    background-image: url('../../../img/icons/footer/Phone.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.address__item--mail::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 9px;
+    height: 13px;
+    display: inline-block;
+    background-image: url('../../../img/icons/footer/Message_small.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
