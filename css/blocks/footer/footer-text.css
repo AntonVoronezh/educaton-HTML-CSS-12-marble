@@ -1,0 +1,28 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;  
+}
+
+.get-in-touch {
+    width: 23%;
+border: 1px solid #ffffff;
+}
+
+.twitter {
+    width: 23%;
+    border: 1px solid #ffffff;
+}
+
+.popular-posts {
+    width: 23%;
+    border: 1px solid #ffffff;
+}
+
+.about-us {
+    width: 23%;
+    border: 1px solid #ffffff;
+}
