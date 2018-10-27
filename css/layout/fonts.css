@@ -3,8 +3,15 @@
 ****************************/
 
 @font-face {
-    font-family: 'TitilliumWeb';
-    src: url('fonts/TitilliumWeb-Regular.ttf');
+    font-family: 'RobotoCondensed-Regular';
+    src: url('fonts/RobotoCondensed-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoCondensed-Bold';
+    src: url('fonts/RobotoCondensed-Bold.ttf');
     font-weight: normal;
     font-style: normal;
 }

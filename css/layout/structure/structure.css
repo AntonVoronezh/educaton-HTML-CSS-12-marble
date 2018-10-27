@@ -30,6 +30,13 @@
     border: 1px solid #000000;
 }
 
+.header-bottom {
+    min-height: 600px;
+    background-image: url('../../../img/technical/Layer_1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .footer {
     flex: 0 0 auto;
     min-height: 460px;

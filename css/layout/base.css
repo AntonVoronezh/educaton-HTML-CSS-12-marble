@@ -11,9 +11,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
     color: #000000;
     /* подключить  шрифт*/
-    /* font-family: 'TitilliumWeb', sans-serif; */
-    /* font-size: 0;
-    line-height: ; */
+    font-family: 'RobotoCondensed-Regular', sans-serif;
+    font-size: 14;
+    line-height: 24px;
 }
 
 .visually-hidden {
@@ -187,12 +187,12 @@ ul {
 a,
 a:visited {
     /* порядок правил для ссылок имеет значение */
-    color: #f70f0f;
-    text-decoration: underline;
+    color: #4e4e4e;
+    text-decoration: none;
 }
 
 a:hover {
-    color: #fd8b08;
+    color: #1abb9c;
     text-decoration: none;
 }
 
@@ -222,7 +222,7 @@ img {
 /* ------------/дополнительно--------------- */
 
 a {
-    transition: color 1.1s;
+    transition: color 0.5s;
 }
 
 input,
