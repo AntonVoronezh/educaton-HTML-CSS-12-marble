@@ -3,26 +3,65 @@
 ****************************/
 
 .footer-text {
-  display: flex;
-  justify-content: space-between;  
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .get-in-touch {
     width: 23%;
-border: 1px solid #ffffff;
+    /* border: 1px solid #ffffff; */
 }
 
 .twitter {
     width: 23%;
-    border: 1px solid #ffffff;
+    /* border: 1px solid #ffffff; */
 }
 
 .popular-posts {
     width: 23%;
-    border: 1px solid #ffffff;
+    /* border: 1px solid #ffffff; */
 }
 
 .about-us {
     width: 23%;
-    border: 1px solid #ffffff;
+    /* border: 1px solid #ffffff; */
+}
+
+.footer-text__title {
+    padding-bottom: 10px;
+    color: #6c6c6c;
+    font-family: 'RobotoCondensed-Bold';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.footer-text__text {
+    position: relative;
+    padding-bottom: 10px;
+    color: #cacaca;
+    font-family: 'RobotoCondensed-Regular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer-text__text--twitter {
+    padding-left: 30px;
+}
+
+.footer-text__text--twitter::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 13px;
+    height: 10px;
+    display: inline-block;
+    background-image: url('../../../img/icons/footer/Layer_15.png');
+    background-position: center center;
+    background-repeat: no-repeat;
 }

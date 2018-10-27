@@ -240,3 +240,7 @@ img {
 .content-box-component {
     box-sizing: content-box;
 }
+
+address {
+    font-style: inherit;
+}
