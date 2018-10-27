@@ -1,0 +1,17 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.footer-top {
+    position: relative;
+}
+
+.phrase {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 730px;
+    height: 120px;
+    border: 1px solid #000000;
+}
