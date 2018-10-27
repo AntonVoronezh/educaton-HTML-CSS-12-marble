@@ -2,7 +2,6 @@
 **      AntonVoronezh
 ****************************/
 
-
 .wrapper {
     overflow: hidden;
     min-width: 1170px;
@@ -22,12 +21,12 @@
 
 .wrapper__content {
     flex: 1 0 auto;
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
 }
 
 .header {
     min-height: 130px;
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
 }
 
 .header-bottom {
@@ -40,7 +39,9 @@
 .footer {
     flex: 0 0 auto;
     min-height: 460px;
-    border: 1px solid #000000;
+    box-shadow: inset 0 9px 0 rgba(0, 0, 0, 0.22);
+    background-color: #1c1c1c;
+    /* border: 1px solid #000000; */
 }
 
 .maincontent {
